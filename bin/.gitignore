@@ -1,0 +1,14 @@
+# Ignore binary files
+engine.exe
+engine
+engine.app
+
+# Ignore logs
+log.txt
+
+# Note, since the .gitignore in the root whitelisted all files in the root of this directory, I don't need to whitelist it here, but I will for the sake of completeness.
+!engine.config
+!Data/
+
+# The whitelist from the root folder doesn't extend to subfolders, so I need to whitelist them here. (This will also apply to subdirectories of Data/)
+!Data/*

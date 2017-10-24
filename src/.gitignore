@@ -1,0 +1,5 @@
+# I want to track all files in the src directory
+!*
+
+# But ignore any .o files (which shouldn't be in here anyway, but just in case)
+*.o

@@ -1,0 +1,19 @@
+# Ignore all files by default
+*
+
+#Whitelist files:
+!.gitignore
+!CMakeLists.txt
+#Whitelist folders:
+!src/
+!src/*
+!include/
+!include/*
+!lib/
+!lib/*
+!bin/
+!bin/*
+!cmake/
+!cmake/*
+!.vscode/
+!.vscode/*
